@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flex City Portal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #1f1f2e, #34495e);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #111;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 3px solid #1abc9c;
+    }
+
+    .blink {
+      font-size: 2em;
+      font-weight: bold;
+      animation: blink 1s infinite alternate;
+    }
+
+    @keyframes blink {
+      0% { color: #ff69b4; }
+      100% { color: #00ffff; }
+    }
+
+    .container {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .section {
+      background: rgba(0,0,0,0.3);
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    .section h2 {
+      margin-top: 0;
+      color: #1abc9c;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 25px;
+      background-color: #1abc9c;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #16a085;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      color: #aaa;
+      font-size: 0.9em;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .button {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="all.jpg" alt="Logo Flex City">
+    <div class="blink">🌆 Flex City - Portal Informasi</div>
+    <p>Roleplay lebih seru, komunitas lebih aktif!</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>👋 Selamat Datang!</h2>
+      <p>Ini adalah portal resmi untuk informasi seputar <strong>Flex City</strong>. Di sini kamu bisa dapat link ke media sosial, join komunitas Discord, dan lihat pengumuman terbaru.</p>
+    </div>
+
+    <div class="section">
+      <h2>🎵 TikTok saya</h2>
+      <p>Follow TikTok kami untuk konten lucu, update server, dan momen seru dalam dunia RP.</p>
+      <a href="https://www.tiktok.com/@alfathmengikuti.a?_t=ZS-8yY5NFpBCZo&_r=1" class="button" target="_blank">Kunjungi TikTok</a>
+    </div>
+
+    <div class="section">
+      <h2>📸 Instagram saya</h2>
+      <p>Lihat galeri foto, pengumuman event, dan highlight karakter dari server Flex City.</p>
+      <a href="https://www.instagram.com/alfath_six?igsh=YTV6Y3VvaHY4bW1r" class="button" target="_blank">Kunjungi Instagram</a>
+    </div>
+
+    <div class="section">
+      <h2>📢 Saluran WhatsApp</h2>
+      <p>Ikuti saluran WA kami untuk dapat info server langsung ke HP kamu secara cepat dan ringkas.</p>
+      <a href="https://whatsapp.com/channel/0029VbAAZ8u9WtC9wxoi633x" class="button" target="_blank">Ikuti Saluran WA</a>
+    </div>
+
+    <div class="section">
+      <h2>🎮 Join Discord Flex City</h2>
+      <p>Gabung ke Discord untuk ngobrol bareng komunitas, cari job, lihat rules dan pengumuman lainnya.</p>
+      <a href="https://discord.gg/flexcitygame" class="button" target="_blank">Masuk ke Discord</a>
+    </div>
+
+    <div class="section">
+      <h2>📰 Info Terbaru</h2>
+      <ul>
+        <li>✅ Server update versi 1.5.1
+        <li>📅 ada sesuatu yang baru</li>
+        <li>📢 Lowongan kerja RP: Polisi, dan tempat sosial</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Flex City RP - all in six info. all 💙💗 by all six.
+  </footer>
+
+</body>
+</html>
